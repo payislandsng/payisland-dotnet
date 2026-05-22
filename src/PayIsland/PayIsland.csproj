@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>PayIsland</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>PayIsland</Authors>
+    <Company>Payment Island Services Limited</Company>
+    <Description>Official .NET SDK for integrating with PayIsland payment APIs.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/payislandsng/payisland-dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/payislandsng/payisland-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>payisland payments sdk fintech nigeria</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>
