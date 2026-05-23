@@ -1,5 +1,7 @@
 # PayIsland .NET SDK
 
+![CI](https://github.com/payislandsng/payisland-dotnet/actions/workflows/ci.yml/badge.svg)
+
 Official .NET SDK for integrating with PayIsland payment APIs.
 
 ## Installation
